@@ -64,7 +64,7 @@ curl -X POST " https://app.baseten.co/models/YOUR_MODEL_ID/predict" \
      -H "Content-Type: application/json" \
      -H 'Authorization: Api-Key {YOUR_API_KEY}' \
      -d '{
-           "prompt": "Write a movie plot about falcons planning to over the worl?",
+           "prompt": "Write a movie plot about falcons planning to over the world",
            "do_sample": True,
            "max_new_tokens": 300,
            "temperature": 0.3
