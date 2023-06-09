@@ -1,7 +1,7 @@
 base_image: null
 bundled_packages_dir: packages
 data_dir: data
-description: Open source LLM.
+description: Falcon 7B is an LLM available for commercial use released by Technology Innovation Institute (TTI).
 environment_variables: {}
 examples_filename: examples.yaml
 external_package_dirs: []
@@ -16,7 +16,7 @@ model_metadata:
   tags:
   - text-generation
 model_module_dir: model
-model_name: Falcon 40B
+model_name: Falcon 7B
 model_type: custom
 python_version: py39
 requirements:
